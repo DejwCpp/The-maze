@@ -7,7 +7,14 @@ void setXY(int x, int y);
 
 int main()
 {
+	Console console;
 	
+	console.CursorVisibility(false);
+	console.CharWidthLength(30, 30);
+	console.AlignCenter(1000, 800);
+	console.SetColor("cyan");
+	
+	std::cin.get();
 }
 
 ////// COLORS //////
